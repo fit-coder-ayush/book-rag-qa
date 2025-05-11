@@ -68,4 +68,7 @@ These help users understand the character and setting landscape of the text.
 
 
 
-Thanks for reading, In case of any queries or library dependencies please revert back to me on mail(shrivastava.ayush181297@gmail.com) or on phone(+91 70497 94984).
+Thanks for reading,
+In case of any queries or library dependencies please revert back to me on below contacts
+Mail: shrivastava.ayush181297@gmail.com
+Phone: +91 70497 94984
