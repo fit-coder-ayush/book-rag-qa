@@ -1,10 +1,10 @@
-📚 **RAG-based QA System for Any Book**
+##📚 **RAG-based QA System for Any Book**
 
 This project is a **Retrieval-Augmented Generation (RAG)** system built by **Ayush Shrivastava** for case study. It allows users to upload or link any `.txt` book (e.g., from Project Gutenberg), ask natural language questions, and get answers generated from context using models like **FLAN-T5**.
 
 ---
 
-🔍 Features
+##🔍 Features
 
 - ✅ Load any `.txt` book (uploaded file or URL)
 - ✅ Automatically chunk and embed the book using `sentence-transformers`
@@ -25,12 +25,10 @@ bash:
 git clone https://github.com/your-username/book-rag-qa.git
 cd book-rag-qa
 
-
 2. Install dependencies
 bash:
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-
 
 3. Run the APP
 bash:
@@ -38,7 +36,7 @@ streamlit run app.py
 
 
 
-📁 File Structure
+			📁 File Structure
 📦 book-rag-qa/
 ├── app.py                 # Streamlit UI
 ├── utils.py               # Core logic: chunking, embedding, QA
@@ -47,14 +45,14 @@ streamlit run app.py
 
 
 
-📘 Example Use
+			📘 Example Use
 ✅ Paste a Project Gutenberg .txt URL ("https://www.gutenberg.org/cache/epub/1342/pg1342.txt")
 ✅ Ask: “Who is Mr. Darcy?”
 ✅ Get the relevant answer.
 
 
 
-🧠 Ontology
+			🧠 Ontology
 In the sidebar, the app displays key named entities extracted from the book:
 👤 People
 🌍 Geopolitical Locations
@@ -63,7 +61,7 @@ These help users understand the character and setting landscape of the text.
 
 
 
-🛠️ Customization
+			🛠️ Customization
 🔁 Model: Easily switch from flan-t5-base to flan-t5-large or GPT by editing utils.py
 📚 Input: Replace the .txt file or URL with any new book
 🤖 API version (optional): You can integrate GPT-3.5/4 via OpenAI if needed and already having an API key
