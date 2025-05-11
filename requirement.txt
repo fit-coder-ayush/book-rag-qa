@@ -1,0 +1,23 @@
+# Core libraries
+numpy
+torch
+streamlit
+requests
+pickle5
+
+# Sentence embeddings
+sentence-transformers
+
+# Vector database
+faiss-cpu
+
+# Transformers for FLAN-T5 and others
+transformers
+sentencepiece
+
+# spaCy and model
+spacy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# Optional (if using GPT APIs)
+openai

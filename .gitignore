@@ -1,0 +1,17 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+env/
+venv/
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter Notebooks (if not needed)
+*.ipynb
+
+# Others
+faiss_index.index
+*.pkl
