@@ -1,10 +1,10 @@
-📚 **RAG-based QA System for Any Book**
+##📚 **RAG-based QA System for Any Book**
 
 This project is a **Retrieval-Augmented Generation (RAG)** system built by **Ayush Shrivastava** for case study. It allows users to upload or link any `.txt` book (e.g., from Project Gutenberg), ask natural language questions, and get answers generated from context using models like **FLAN-T5**.
 
 ---
 
-🔍 Features
+##🔍 **Features**
 
 - ✅ Load any `.txt` book (uploaded file or URL)
 - ✅ Automatically chunk and embed the book using `sentence-transformers`
@@ -16,9 +16,9 @@ This project is a **Retrieval-Augmented Generation (RAG)** system built by **Ayu
 
 ---
 
-## 📦 How to Install and Use 
+## 📦 **How to Install and Use** 
 
-
+...
 1. Clone this repo
 bash:
 git clone https://github.com/your-username/book-rag-qa.git
