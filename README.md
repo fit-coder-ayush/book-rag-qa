@@ -22,7 +22,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** system built by **Ayu
 ```bash
 1. Clone this repo
 bash:
-git clone https://github.com/your-username/book-rag-qa.git
+git clone https://github.com/fit-coder-ayush/book-rag-qa.git
 cd book-rag-qa
 
 2. Install dependencies
