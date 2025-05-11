@@ -19,19 +19,19 @@ This project is a **Retrieval-Augmented Generation (RAG)** system built by **Ayu
 ## 📦 How to Install and Use 
 
 1. Clone this repo
-bash:
+```bash
 git clone https://github.com/your-username/book-rag-qa.git
 cd book-rag-qa
 
 
 2. Install dependencies
-bash:
+```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
 
 3. Run the APP
-bash:
+```bash
 streamlit run app.py
 
 
